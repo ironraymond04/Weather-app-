@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", async function () {
-  const apiKey = "5f885fcd932e41008c761115242108";
+  const apiKey = "34d46fa6aa364a2bacc61232241908";
   const cityName = "Iligan";
   const apiEndpoint = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${cityName}`;
 
@@ -42,7 +42,7 @@ async function fetchWeather() {
     return;
   }
 
-  const apiKey = "5f885fcd932e41008c761115242108";
+  const apiKey = "34d46fa6aa364a2bacc61232241908";
   const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${encodeURIComponent(
     cityName
   )}`;
