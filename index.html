@@ -72,6 +72,11 @@
         margin-top: 20px;
         text-align: center;
       }
+
+      .weatherform{
+
+      }
+      
     </style>
   </head>
   <body>
@@ -79,13 +84,16 @@
     <div id="weather">
       <p>Loading weather data...</p>
     
+
+    </div>
+
+     <div class="weatherform"> 
       <form id="weatherForm">
         <label for="cityInput">Enter city name:</label>
         <input type="text" id="cityInput" name="city" required />
         <button type="button" onclick="fetchWeather()">Get Weather</button>
       </form>
-      
-    </div>
+     </div>
 
     <script src="script.js"></script>
   </body>
