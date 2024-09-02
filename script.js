@@ -43,7 +43,7 @@ async function fetchWeather() {
   }
 
   const apiKey = "34d46fa6aa364a2bacc61232241908";
-  const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${encodeURIComponent(
+  const apiUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${encodeURIComponent(
     cityName
   )}`;
 
